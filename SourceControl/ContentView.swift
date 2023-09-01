@@ -13,6 +13,7 @@ struct ContentView: View {
             VStack {
                 Rectangle().fill(Color.yellow)
                 Rectangle().fill(Color.blue)
+                Rectangle().fill(Color.green)
             }
             .ignoresSafeArea()
             .navigationTitle("Fenerbahçe")
