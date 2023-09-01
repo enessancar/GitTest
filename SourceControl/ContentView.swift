@@ -14,11 +14,14 @@ struct ContentView: View {
                 Rectangle().fill(Color.yellow)
                 Rectangle().fill(Color.blue)
                 Rectangle().fill(Color.green)
+                Text("enes")
+                    .font(.title)
+                    .foregroundColor(.red)
             }
-            .ignoresSafeArea()
             .navigationTitle("Fenerbahçe")
             .cornerRadius(4)
             .font(.title)
+            
         }
     }
 }
