@@ -17,6 +17,7 @@ struct ContentView: View {
             }
             .ignoresSafeArea()
             .navigationTitle("Fenerbahçe")
+            .cornerRadius(4)
         }
     }
 }
